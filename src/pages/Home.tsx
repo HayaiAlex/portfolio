@@ -1,5 +1,5 @@
-import svelteCountriesImg from '/public/imgs/svelte-countries.png';
-import eCommercePageImg from '/public/imgs/e-commerce-page.png';
+import svelteCountriesImg from '../images/svelte-countries.png';
+import eCommercePageImg from '../images/e-commerce-page.png';
 import ProjectCard from '../components/ProjectCard';
 import SocialLinks from '../components/SocialLinks';
 
@@ -25,9 +25,9 @@ export default function Home() {
             </div>
 
             {/* Skills */}
-            <div className='m-4 flex flex-col flex-wrap gap-2 items-center'>
+            <div className='m-4 flex flex-col gap-2 items-center'>
                 <h2 className="text-xl tracking-wider">Skills</h2>
-                <div className='flex gap-2'>
+                <div className='flex flex-wrap justify-center gap-2'>
                     <Skill label='HTML5' />
                     <Skill label='CSS3' />
                     <Skill label='Javascript' />
