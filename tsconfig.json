@@ -9,7 +9,7 @@
     ],
     "allowJs": false,
     "skipLibCheck": true,
-    "emdoduleInterop": false,
+    "esMododuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
